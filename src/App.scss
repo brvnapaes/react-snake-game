@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #363636;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    background: #474747;
+}
+
+button {
+    min-height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #cc527a;
+
+    &.active {
+        outline: none;  
+    }
+}
+
+.game-over {
+    color: #cc527a;
+    margin-top: 6px;
+}
